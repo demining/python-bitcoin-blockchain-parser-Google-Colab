@@ -29,6 +29,13 @@ This blockchain parser parses raw blocks saved in Bitcoin Core's `.blk` file for
 import os 
 from blockchain_parser.blockchain import Blockchain
 
+----
+
+|  | Donation Address |
+| --- | --- |
+| ♥ __BTC__ | 1Lw2kh9WzCActXSGHxyypGLkqQZfxDpw8v |
+| ♥ __ETH__ | 0xaBd66CF90898517573f19184b3297d651f7b90bf |
+
 # Instantiate the Blockchain by giving the path to the directory 
 # containing the .blk files created by bitcoind
 blockchain = Blockchain(os.path.expanduser('~/.bitcoin/blocks'))
